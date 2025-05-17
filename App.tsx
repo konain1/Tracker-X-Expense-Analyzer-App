@@ -1,13 +1,13 @@
 import React from "react";
 import { StatusBar } from "expo-status-bar";
-import { Text, View } from "react-native";
-import LoginScreen from "./Screens/LoginScreen";
+import { View } from "react-native";
 import "./global.css";
+
+import PreloginScreen from "./Screens/PreloginScreen";
 export default function App() {
   return (
-    <View className="flex-1 justify-center items-center">
-      <Text className=" text-4xl font-bold">TrackerX</Text>
-      <LoginScreen />
+    <View className="flex-1 bg-red-500  ">
+      <PreloginScreen />
       <StatusBar style="auto" />
     </View>
   );
