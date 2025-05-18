@@ -15,6 +15,12 @@ module.exports = {
         semiBold: ["Montserrat_600SemiBold"],
         bold: ["Montserrat_700Bold"],
       },
+      colors: {
+        brightYellow: "#eef860",
+        richBlack: "##08080A",
+        lightPurple: "#CBBEF7",
+        darkGrey: "#D7D7D7",
+      },
     },
   },
   plugins: [],
