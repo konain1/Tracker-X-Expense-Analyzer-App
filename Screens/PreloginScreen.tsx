@@ -1,4 +1,4 @@
-import { Text, View } from "react-native";
+import { Pressable, Text, View } from "react-native";
 import MaterialCommunityIcons from "@expo/vector-icons/MaterialCommunityIcons";
 
 function PreloginScreen() {
@@ -23,13 +23,16 @@ function PreloginScreen() {
           <View className="w-10 h-10 bg-purple-300 absolute rotate-45 right-8 top-10 "></View>
         </View>
       </View>
-
-      <View className="bg-yellow-50 h-[30%] rounded-t-[50%]   justify-start  items-center ">
-        <View></View>
+      <Pressable
+        onPress={() => {
+          console.log("pressed");
+        }}
+        className="bg-yellow-50 h-[30%] rounded-t-[50%]   justify-start  items-center "
+      >
         <View className="h-[20%] w-[20%]  bg-black m-10 justify-center items-center rounded-lg transform-gpu  ">
           <MaterialCommunityIcons name="greater-than" size={24} color="white" />
         </View>
-      </View>
+      </Pressable>
     </View>
   );
 }
