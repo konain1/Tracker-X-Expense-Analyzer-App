@@ -5,7 +5,7 @@ function LoginScreen() {
   //
   return (
     <View>
-      <Text className="text-3xl">Login Screenmas</Text>
+      <Text className="text-2xl font-medium">Login Screenmas</Text>
     </View>
   );
 }
